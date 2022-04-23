@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CognitiveCommere.git/static/css/main.073c9b0a.css",
-    "main.js": "/CognitiveCommere.git/static/js/main.58927b62.js",
-    "static/js/787.4759dd8b.chunk.js": "/CognitiveCommere.git/static/js/787.4759dd8b.chunk.js",
-    "static/media/logo.svg": "/CognitiveCommere.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/CognitiveCommere.git/index.html",
-    "main.073c9b0a.css.map": "/CognitiveCommere.git/static/css/main.073c9b0a.css.map",
-    "main.58927b62.js.map": "/CognitiveCommere.git/static/js/main.58927b62.js.map",
-    "787.4759dd8b.chunk.js.map": "/CognitiveCommere.git/static/js/787.4759dd8b.chunk.js.map"
+    "main.css": "/CognitiveCommere/static/css/main.073c9b0a.css",
+    "main.js": "/CognitiveCommere/static/js/main.54a7d27b.js",
+    "static/js/787.4759dd8b.chunk.js": "/CognitiveCommere/static/js/787.4759dd8b.chunk.js",
+    "static/media/logo.svg": "/CognitiveCommere/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CognitiveCommere/index.html",
+    "main.073c9b0a.css.map": "/CognitiveCommere/static/css/main.073c9b0a.css.map",
+    "main.54a7d27b.js.map": "/CognitiveCommere/static/js/main.54a7d27b.js.map",
+    "787.4759dd8b.chunk.js.map": "/CognitiveCommere/static/js/787.4759dd8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.58927b62.js"
+    "static/js/main.54a7d27b.js"
   ]
 }
