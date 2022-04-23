@@ -2,7 +2,7 @@
   "name": "cognitive-commerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iamitesh.github.io/CognitiveCommere.git",
+  "homepage": "https://iamitesh.github.io/CognitiveCommere",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
