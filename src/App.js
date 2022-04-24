@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
@@ -17,12 +17,14 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Commerce />} />
+        <Route exact path="/" element={<Commerce />} />
+        <Route exact path="/CognitiveCommere" element={<Commerce />} />
         <Route path="/community" element={<Community />} />
         <Route path="/develop" element={<Develop />} />
         <Route path="/marketplace" element={<MarketPlace />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/sell" element={<Sell />} />
+        {/* <Navigate to="/" /> */}
       </Routes>
       <Footer />
     </div>

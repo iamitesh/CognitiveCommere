@@ -30,7 +30,7 @@ const Navbar = () => {
                     <Link
                       className="nav-link active"
                       aria-current="page"
-                      to="./"
+                      to="/CognitiveCommere"
                     >
                       Commerce
                     </Link>
