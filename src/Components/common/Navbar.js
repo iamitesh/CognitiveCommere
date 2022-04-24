@@ -62,6 +62,12 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
+              <Link className="btn btn-primary m-2" to="/CognitiveCommere">
+                Login
+              </Link>
+              <Link className="btn btn-primary m-2" to="/CognitiveCommere">
+                Signup
+              </Link>
             </div>
           </nav>
         </div>
