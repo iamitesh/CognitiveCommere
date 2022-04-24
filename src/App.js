@@ -1,8 +1,9 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 import "./App.css";
+import Footer from "./Components/common/Footer/Footer";
 import Navbar from "./Components/common/Navbar";
 import Commerce from "./Components/pages/Commerce";
 import Community from "./Components/pages/Community";
@@ -21,14 +22,9 @@ const App = () => {
         <Route path="/develop" element={<Develop />} />
         <Route path="/marketplace" element={<MarketPlace />} />
         <Route path="/resources" element={<Resources />} />
-        <Route
-          path="/sell"
-          element={<Sell />}
-          // component not changing view
-          // component={Sell}
-        />
-        {/* <Navigate to="/CognitiveCommere" /> */}
+        <Route path="/sell" element={<Sell />} />
       </Routes>
+      <Footer />
     </div>
   );
 };
