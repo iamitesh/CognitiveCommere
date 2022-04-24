@@ -8,7 +8,7 @@ const Navbar = () => {
           <nav className="navbar navbar-expand-lg navbar-light bg-blue">
             <div className="container-fluid">
               <Link className="navbar-brand" to="#">
-                Navbar
+                Cognitive Commerce
               </Link>
               <button
                 className="navbar-toggler"
