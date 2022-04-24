@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CognitiveCommere/static/css/main.43de185f.css",
-    "main.js": "/CognitiveCommere/static/js/main.bbd20207.js",
+    "main.css": "/CognitiveCommere/static/css/main.23017ed8.css",
+    "main.js": "/CognitiveCommere/static/js/main.f88aeb10.js",
     "static/js/787.4759dd8b.chunk.js": "/CognitiveCommere/static/js/787.4759dd8b.chunk.js",
     "index.html": "/CognitiveCommere/index.html",
-    "main.43de185f.css.map": "/CognitiveCommere/static/css/main.43de185f.css.map",
-    "main.bbd20207.js.map": "/CognitiveCommere/static/js/main.bbd20207.js.map",
+    "main.23017ed8.css.map": "/CognitiveCommere/static/css/main.23017ed8.css.map",
+    "main.f88aeb10.js.map": "/CognitiveCommere/static/js/main.f88aeb10.js.map",
     "787.4759dd8b.chunk.js.map": "/CognitiveCommere/static/js/787.4759dd8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43de185f.css",
-    "static/js/main.bbd20207.js"
+    "static/css/main.23017ed8.css",
+    "static/js/main.f88aeb10.js"
   ]
 }
