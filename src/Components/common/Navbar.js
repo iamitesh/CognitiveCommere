@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="col-10 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-light bg-blue">
             <div className="container-fluid">
-              <Link className="navbar-brand" to="#">
+              <Link className="navbar-brand" to="/CognitiveCommere">
                 Cognitive Commerce
               </Link>
               <button
