@@ -34,12 +34,12 @@ font-size:50px;
 background-repeat:no-repeat; */
 }
 .card-body .card-title{
-    border-top: 1px dotted;
-    border-bottom: 5px dashed;
-    border-radius: 5%;
-    border-top-radius: 40%;
+    border-top: 5px solid rgb(249, 249, 3);
+    border-bottom: 2px;
+    border-radius: 45%;
+    /* border-top-radius: 40%; */
     font-weight: bolder;
-    margin: 5% 25%;
-    padding:5px;
+    margin: 5% 5%;
+    padding:15px;
     background-color: aqua;
 }

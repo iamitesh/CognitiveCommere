@@ -8,11 +8,11 @@ const BusinessTypes = (props) => {
       <div className="card">
         <div className="card-body type-card-body ">
           <div className="section-one">
-            <h3 className="card-title text-success">{title}</h3>
+            <h5 className="card-title text-white bg-dark">{title}</h5>
             <p className="card-text">{desc}</p>
           </div>
           <div className="section-two">
-            <h4 className="card-sec-title text-success">{secondaryTitle}</h4>
+            <h4 className="card-sec-title text-dark ">{secondaryTitle}</h4>
             <img src={src} className="card-img-top" alt={secondaryTitle} />
           </div>
         </div>
