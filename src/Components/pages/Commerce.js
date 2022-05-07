@@ -1,41 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Cards from "../common/Cards/Cards";
-import europe from "../../Assets/europe.jpg";
-import london from "../../Assets/london.jpg";
-import newyork from "../../Assets/newyork.jpg";
+import { cardsDetails } from "../../data/CardDetails";
 
 const Commerce = () => {
-  const cardsDetails = [
-    {
-      src: europe,
-      title: "A Street in Europe",
-      desc: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Integer interdum odio in felis mattis feugiat/ In rhoncus
-    libero magna, ultricies condimentum tortor tempor sit amet.`,
-      buttonText: "Go somewhere",
-    },
-    {
-      src: london,
-      title: "London",
-      desc: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Integer interdum odio in felis mattis feugiat/ In rhoncus
-    libero magna, ultricies condimentum tortor tempor sit amet.`,
-      buttonText: "Go somewhere",
-    },
-    {
-      src: newyork,
-      title: "New York",
-      desc: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Integer interdum odio in felis mattis feugiat/ In rhoncus
-    libero magna, ultricies condimentum tortor tempor sit amet.`,
-      buttonText: "Go somewhere",
-    },
-  ];
-
   return (
     <div className="pages">
-      <div className="container">
+      <div className="container m-3">
         <div className="row g-3 justify-content-center">
           {cardsDetails.map((eachCard, index) => {
             console.log(eachCard.src);
@@ -50,6 +20,7 @@ const Commerce = () => {
             );
           })}
         </div>
+        <div className="m-3 p-3">Here I would be displaying card overlays</div>
       </div>
     </div>
   );
