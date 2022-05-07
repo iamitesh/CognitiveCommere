@@ -4,14 +4,13 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 import "./App.css";
 import Footer from "./Components/common/Footer/Footer";
-import Navbar from "./Components/common/Navbar";
+import Navbar from "./Components/common/Navbar/Navbar";
 import Commerce from "./Components/pages/Commerce";
 import Community from "./Components/pages/Community";
 import Develop from "./Components/pages/Develop";
 import MarketPlace from "./Components/pages/MarketPlace";
 import Resources from "./Components/pages/Resources";
 import Sell from "./Components/pages/Sell";
-
 const App = () => {
   return (
     <div className="App">

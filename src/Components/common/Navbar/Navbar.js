@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CCLogo from "../../../Assets/CCLogo.png";
+import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="container-fluid nav_bg">
       <div className="row">
-        <div className="col-10 mx-auto">
+        <div className="col-12 mx-auto">
           <nav className="navbar navbar-expand-lg navbar-light bg-blue">
             <div className="container-fluid">
               <Link className="navbar-brand" to="/CognitiveCommere">
-                Cognitive Commerce
+                <img className="CClogo" src={CCLogo} alt="" />
+                <span>Cognitive Commerce</span>
               </Link>
               <button
                 className="navbar-toggler"
