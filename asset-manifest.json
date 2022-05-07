@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CognitiveCommere/static/css/main.2f238673.css",
-    "main.js": "/CognitiveCommere/static/js/main.28e8ec99.js",
+    "main.css": "/CognitiveCommere/static/css/main.f7848506.css",
+    "main.js": "/CognitiveCommere/static/js/main.25334457.js",
     "static/js/787.4759dd8b.chunk.js": "/CognitiveCommere/static/js/787.4759dd8b.chunk.js",
     "static/media/europe.jpg": "/CognitiveCommere/static/media/europe.29d02c2b915c630c46e0.jpg",
     "static/media/london.jpg": "/CognitiveCommere/static/media/london.0b4e8a324c5f2bfe5d13.jpg",
     "static/media/newyork.jpg": "/CognitiveCommere/static/media/newyork.16a101ef6c53f1c79321.jpg",
     "index.html": "/CognitiveCommere/index.html",
-    "main.2f238673.css.map": "/CognitiveCommere/static/css/main.2f238673.css.map",
-    "main.28e8ec99.js.map": "/CognitiveCommere/static/js/main.28e8ec99.js.map",
+    "main.f7848506.css.map": "/CognitiveCommere/static/css/main.f7848506.css.map",
+    "main.25334457.js.map": "/CognitiveCommere/static/js/main.25334457.js.map",
     "787.4759dd8b.chunk.js.map": "/CognitiveCommere/static/js/787.4759dd8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f238673.css",
-    "static/js/main.28e8ec99.js"
+    "static/css/main.f7848506.css",
+    "static/js/main.25334457.js"
   ]
 }
