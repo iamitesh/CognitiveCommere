@@ -25,14 +25,14 @@ export const cardsDetails = [
 export const BusinessTypesDetails = [
   {
     src: europe,
-    title: "Yet to Start",
-    desc: `Lorem ipsum dolor `,
-    secondaryTitle: "Go   somewhere",
+    title: "Yet to Start ?",
+    desc: `Have an Idea Ready in Mind...`,
+    secondaryTitle: "Let's Earn Customers from Scratch",
   },
   {
     src: london,
-    title: "Already in the Game",
-    desc: `Integer interdum odio `,
-    secondaryTitle: "Go   somewhere",
+    title: "Already in the Game ?",
+    desc: `Wanna scale it up...`,
+    secondaryTitle: "Let's Introspect and Improvise",
   },
 ];
