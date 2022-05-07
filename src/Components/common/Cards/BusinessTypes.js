@@ -4,9 +4,9 @@ const BusinessTypes = (props) => {
   const { src, title, desc, secondaryTitle } = props;
 
   return (
-    <div className="card-wrapper col-12 col-md-6 col-lg-4">
+    <div className="card-wrapper col-12">
       <div className="card">
-        <div className="card-body">
+        <div className="card-body type-card-body ">
           <div className="section-one">
             <h3 className="card-title text-success">{title}</h3>
             <p className="card-text">{desc}</p>

@@ -27,6 +27,11 @@
     width:80%
 
 }
+.BusinessTypesDetailsWrapper{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
 
 /* @keyframes App-logo-spin {
   from {

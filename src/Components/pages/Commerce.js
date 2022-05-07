@@ -35,18 +35,20 @@ const Commerce = () => {
           <h2 className="text-warning p-2 ">
             Checkout the Type of Business You Fall Under
           </h2>
-          {BusinessTypesDetails.map((eachCard, index) => {
-            console.log(eachCard.src);
-            return (
-              <BusinessTypes
-                key={index}
-                src={eachCard.src}
-                title={eachCard.title}
-                desc={eachCard.desc}
-                secondaryTitle={eachCard.secondaryTitle}
-              />
-            );
-          })}
+          <div className="BusinessTypesDetailsWrapper">
+            {BusinessTypesDetails.map((eachCard, index) => {
+              console.log(eachCard.src);
+              return (
+                <BusinessTypes
+                  key={index}
+                  src={eachCard.src}
+                  title={eachCard.title}
+                  desc={eachCard.desc}
+                  secondaryTitle={eachCard.secondaryTitle}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

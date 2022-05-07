@@ -1,6 +1,19 @@
 
-.card-body{
+.card-body,
+.type-card-body{
         background-color: aqua;
+}
+.type-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+
+}
+.type-card-body .section-one,
+.type-card-body .section-two {
+    width: 50%;
+    align-items: space-between;
 }
 .card-body .btn{
     display:flex;
