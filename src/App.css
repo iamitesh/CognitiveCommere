@@ -13,6 +13,20 @@
   font-size: calc(10px + 2vmin);
   color: blue;
 }
+.card-container{
+  display:flex;
+  align-items: center;
+  background-color: rgb(149, 244, 165);
+  margin:0px 5px 10px 5px;
+}
+
+.card-container h2{
+  border-bottom: 5px dotted;
+  border-top: 5px dotted ;
+    border-radius: 25%;
+    width:80%
+
+}
 
 /* @keyframes App-logo-spin {
   from {
